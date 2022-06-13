@@ -449,7 +449,7 @@ def thermald_thread(end_event, hw_queue):
     #                 location=(strip_deprecated_keys(sm["gpsLocationExternal"].to_dict()) if sm.alive["gpsLocationExternal"] else None),
     #                 deviceState=strip_deprecated_keys(msg.to_dict()))
 
-    count += 1
+    # count += 1
 
 
 def main():
